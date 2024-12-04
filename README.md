@@ -1,4 +1,4 @@
-# Data Scinece and Machine Learning Using Python, Scikit-Learn
+# Data Science and Machine Learning Using Python, Pandas, Numpy, Scikit-Learn
 
 ## Setting up environment
 
@@ -8,20 +8,33 @@
 4. Inside `datascience-ml` folder, create 3 subfolders with name `notebooks`, `datasets` and `models`
 5. Create a Python virtual environment using `python3 -m venv venv`
 6. Once the virtual environment is created, we can activate by running below commands
+   
     **Windows** : `.\venv\Script\activate`
+
     **MacOS**: `./venv/bin/activate`
+
     **Linux**: `./venv/bin/activate`
+
 7. Install the packages to get started with data-science and ML
+
    `pip install jupyter`
+
    `pip install seaborn`
+
    `pip install scikit-learn`
+
 8. Navigate to `datascience-ml` folder and intialize the repository as **git** repository using `git init` command
-9. Add below file to git respository `datascience-ml`
+9.  Add below file to git respository `datascience-ml`
+    
     `touch .gitignore`
+
     `touch .gitkeep`
+
     `touch README.md`
+
 10. Add below content to **.gitignore**
-```
+
+```python
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks
 
